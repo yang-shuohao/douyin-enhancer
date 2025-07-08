@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Douyin Enhancer",
+  "version": "1.0",
+  "description": "抖音网页版增强插件：支持倍速、循环播放、截图、画中画等功能",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["https://www.douyin.com/*"],
+  "action": {
+    "default_title": "Douyin Enhancer"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.douyin.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

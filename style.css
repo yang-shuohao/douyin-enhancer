@@ -1,0 +1,78 @@
+#douyin-ext-panel {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 99999;
+  background: rgba(30, 30, 30, 0.95);
+  padding: 12px 16px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 0 10px #000;
+  width: 220px;
+  user-select: none;
+  font-family: Arial, sans-serif;
+  left: auto;
+}
+
+#douyin-ext-panel label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#douyin-ext-panel input[type="range"],
+#douyin-ext-panel input[type="number"] {
+  width: 100%;
+  cursor: pointer;
+  background: #222;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 2px 4px;
+  color: #fff;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+#douyin-ext-panel button {
+  margin-top: 8px;
+  width: 100%;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #444;
+  color: #fff;
+  font-size: 14px;
+}
+
+#douyin-ext-panel button:hover {
+  background: #666;
+}
+
+#douyin-ext-panel #panel-header {
+  user-select: none;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  background: #222;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: move;
+}
+
+#douyin-ext-panel #github-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 6px;
+  background: #333;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+#douyin-ext-panel #github-link:hover {
+  background: #555;
+}
